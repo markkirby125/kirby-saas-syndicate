@@ -10,16 +10,16 @@ Prompt the user for the following information (if not running in `-y` or non-int
 3. **Syndicate Scale** (How many separate-brand products with the same tech but separate back-ends to scaffold for the NordVPN Tactic? e.g., 3).
 4. **Target Budget** (Branch parasite plan based on budget: e.g. $500-$5k for placements, $5k-$50k for aged subreddits).
 
-**Idempotency & Rerun Policy:** Verify the target absolute path is a directory (not a file or symlink). If the directory already exists, pause and ask the user whether to `resume` (skip existing files), `clobber` (safely empty the directory), or `abort`. Even in non-interactive mode, `clobber` requires explicit user confirmation to prevent data loss. Default to `resume` if no input is provided.
+**Idempotency & Rerun Policy:** Verify the target absolute path is a directory (not a file or symlink). Gate `resume` logic by checking for a `.kirby-syndicate-marker` file. Keep a rollback log of created paths, and use `mkdir` exclusive mode with rollback on partial failure. If the directory already exists, pause and ask whether to `resume` (skip existing files), `clobber` (safely empty the directory), or `abort`. In non-interactive mode, refuse `clobber` outright. Default to `resume` if no input is provided.
 
 ## Stage 2: On-Site Groundwork (Workspace Scaffolding)
 
 Create the `[niche-slug]-syndicate/` directory (using absolute paths). **Before creating any files, explicitly echo the resolved absolute path to the user.** Populate it:
 
-*   **`/strategy/`**
+*   **`strategy/`**
     *   `domain_staging_playbook.md`: Detailed steps for the "Ryan Donnie" workflow (buy expired domain, check Wayback Machine for relevance, rebuild with historical content, force index via Index Checks, send niche edits, rank, then link to main site and run Meta/Reddit ads through the backlink). Branch strategies based on Intake Step 2.
     *   `parasite_seo_plan.md`: Strategy for buying placements on high-ranking listicles, publishing on high-authority sites (Medium, LinkedIn), 301-redirecting dead/penalized domains to the root URL of your parasite profile (e.g. linkedin.com/in/yourname), and acquiring aged subreddits. Tailor to the budget from Intake Step 4.
-*   **`/brands/`**
+*   **`brands/`**
     *   For each brand requested in the Syndicate Scale (e.g., `brand-1`, `brand-2`, `brand-3`), scaffold a directory with an explicit file manifest (e.g., `index.html`, `vibe_coding_prompt.md`).
     *   *Warning:* Do not over-engineer on-site SEO for these domains during the first 3 months to avoid the Google Sandbox. Output lightweight HTML/MD stubs and "vibe-coding" product architecture guidelines.
     *   Ensure separate back-end configurations are planned but core logic is shared.
