@@ -10,7 +10,7 @@ Prompt the user for the following information (if not running in `-y` or non-int
 3. **Syndicate Scale** (How many separate-brand products with the same tech but separate back-ends to scaffold for the NordVPN Tactic? e.g., 3).
 4. **Target Budget** (Branch parasite plan based on budget: e.g. $500-$5k for placements, $5k-$50k for aged subreddits).
 
-**Idempotency & Rerun Policy:** Verify the target absolute path is a directory (not a file or symlink). Gate `resume` logic by checking for a `.kirby-syndicate-marker` file. Keep a rollback log of created paths, and use `mkdir` exclusive mode with rollback on partial failure. If the directory already exists, pause and ask whether to `resume` (skip existing files), `clobber` (safely empty the directory), or `abort`. In non-interactive mode, refuse `clobber` outright. Default to `resume` if no input is provided.
+**Idempotency & Rerun Policy:** Verify the target absolute path is a directory (not a file or symlink). Gate `resume` logic by checking for a `.kirby-syndicate-marker` file (written only upon successful completion of scaffolding). Keep a rollback log of created paths, and use `mkdir` exclusive mode with rollback on partial failure. If the directory already exists without a marker, treat as an interrupted or foreign directory and prompt for `clobber`/`abort` (never `resume`). If the directory exists with a marker, pause and ask whether to `resume` (skip existing files), `clobber` (safely empty the directory), or `abort`. In non-interactive mode, refuse `clobber` outright. Default to `resume` if no input is provided.
 
 ## Stage 2: On-Site Groundwork (Workspace Scaffolding)
 

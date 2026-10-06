@@ -1,8 +1,8 @@
 ---
 name: kirby-saas-syndicate
-description: Use when executing the Jackie Chow & David Quaid SaaS launch strategy. Scaffolds parasite SEO, Ryan Donnie staging workflows, and NordVPN-style syndicate brand generation.
+description: Use when executing the Jackie Chow & David Quaid SaaS launch strategy. Scaffolds parasite SEO, Ryan Donnie staging, and NordVPN-style syndicate brands.
 category: SEO / New Business
-triggers: saas-syndicate, nordvpn-tactic, parasite-saas
+triggers: [saas-syndicate, nordvpn-tactic, parasite-saas]
 ---
 
 # Kirby SaaS Syndicate
