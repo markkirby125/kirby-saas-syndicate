@@ -4,6 +4,8 @@ Kirby skill for executing the Jackie Chow & David Quaid SaaS launch strategy (Ep
 
 Part of the [Kirby Skills Collection](https://github.com/markkirby125/kirby-skills).
 
+**October 2026 update (Module 1):** the Parasite Expansion Pack from Charles Floate's E1193 masterclass — Google-domain parasites, the free-vs-paid platform matrix, the 5-step production pipeline, internal link arbitrage, and parasite CRO, all gated by the SRA boundary test in `kirby-aiseo-skill` Module 15.
+
 ### 🪄 The Magic Prompt
 Copy and paste this into any AI coding app (Cursor, Windsurf, Claude Code, Grok, Kimi, Reasonix):
 
