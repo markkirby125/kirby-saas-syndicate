@@ -29,5 +29,9 @@ Create the `[niche-slug]-syndicate/` directory (using absolute paths). **Before 
 *   **Guardrail:** You MUST require explicit user confirmation before executing any "parasite SEO", "301 redirect mapping", or "subreddit acquisition" tactics. Note that buying aged subreddits is a black-market tactic that violates terms of service; ensure the user accepts this risk.
 *   **Guardrail:** You MUST ensure proper FTC disclosure guidelines are documented for the "NordVPN Tactic" (owning multiple brands on the same listicle).
 *   **Cross-Skill Routing:** For general off-page execution details or link building, refer to the [kirby-off-page-seo](../../kirby-off-page-seo/SKILL.md) skill.
-*   **Parasite Expansion (Charles Floate E1193):** When `parasite_seo_plan.md` is drafted, apply the expansion pack — Google-domain parasites, free-vs-paid platform matrix, 5-step pipeline, internal link arbitrage, and parasite CRO — from `./module_1_parasite_expansion_pack.md`. Every tactic MUST first pass the SRA boundary test in `../../kirby-aiseo-skill/SKILL.md` Module 15 §15.3 (unmoderated authority-rental on legacy media is struck doctrine; moderated UGC/dev hubs remain open).
-*   **Hollow Shell Rule:** The full logic lives here in `00_dispatcher.md`. Never alter `../SKILL.md`.
+## Module Index
+
+- **Module 1: Parasite Expansion Pack — Google Domain Parasites, Platform Matrix, Arbitrage & CRO (Charles Floate E1193)** -> Read `./module_1_parasite_expansion_pack.md` (§1.1 SRA state + boundary test, §1.2 Google-domain parasites, §1.3 platform matrix, §1.4 5-step pipeline, §1.5 internal link arbitrage, §1.6 parasite CRO, §1.7 longevity/defense routing)
+
+**Parasite Expansion routing:** When Stage 2 drafts `parasite_seo_plan.md`, apply Module 1. Every tactic MUST first pass the SRA boundary test in `../../kirby-aiseo-skill/SKILL.md` Module 15 §15.3 (unmoderated authority-rental on legacy media — including unmoderated paid leases — is struck doctrine; moderated UGC/dev hubs remain open).
+*   **Hollow Shell Rule:** The root `../SKILL.md` stays hollow; workflow logic lives here in `00_dispatcher.md`, and the parasite expansion doctrine lives in `./module_1_parasite_expansion_pack.md`.
