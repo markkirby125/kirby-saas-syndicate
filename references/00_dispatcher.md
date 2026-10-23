@@ -32,6 +32,7 @@ Create the `[niche-slug]-syndicate/` directory (using absolute paths). **Before 
 ## Module Index
 
 - **Module 1: Parasite Expansion Pack — Google Domain Parasites, Platform Matrix, Arbitrage & CRO (Charles Floate E1193)** -> Read `./module_1_parasite_expansion_pack.md` (§1.1 SRA state + boundary test, §1.2 Google-domain parasites, §1.3 platform matrix, §1.4 5-step pipeline, §1.5 internal link arbitrage, §1.6 parasite CRO, §1.7 longevity/defense routing)
+- **Module 2: The "No-Discount" Brand Capture Play & Competitor Cannibalization Intake (Gagan Ghotra, Harpreet Singh & David Quaid Ep. 1206)** -> Read `./module_2_no_discount_brand_capture_and_cannibalization_defense.md` (§2.1 Ahrefs-style "no-discount" brand capture landers and FAQ schema, §2.2 competitor `site:` operator footprint extraction)
 
-**Parasite Expansion routing:** When Stage 2 drafts `parasite_seo_plan.md`, apply Module 1. Every tactic MUST first pass the SRA boundary test in `../../kirby-aiseo-skill/SKILL.md` Module 15 §15.3 (unmoderated authority-rental on legacy media — including unmoderated paid leases — is struck doctrine; moderated UGC/dev hubs remain open).
-*   **Hollow Shell Rule:** The root `../SKILL.md` stays hollow; workflow logic lives here in `00_dispatcher.md`, and the parasite expansion doctrine lives in `./module_1_parasite_expansion_pack.md`.
+**Parasite Expansion & Brand Capture routing:** When Stage 2 drafts `parasite_seo_plan.md` or brand landing strategies, apply Modules 1 and 2. Every tactic MUST first pass the SRA boundary test in `../../kirby-aiseo-skill/SKILL.md` Module 15 §15.3 (unmoderated authority-rental on legacy media — including unmoderated paid leases — is struck doctrine; moderated UGC/dev hubs remain open).
+*   **Hollow Shell Rule:** The root `../SKILL.md` stays hollow; workflow logic lives here in `00_dispatcher.md`, and module doctrines live in `./module_*.md`.
